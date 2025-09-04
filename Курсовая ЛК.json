@@ -1,0 +1,1950 @@
+{
+	"info": {
+		"_postman_id": "bed645c4-04ea-4428-b65f-254af10cfe1a",
+		"name": "Курсовая",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36364844"
+	},
+	"item": [
+		{
+			"name": "Создание",
+			"item": [
+				{
+					"name": "Название",
+					"item": [
+						{
+							"name": "Позитивные",
+							"item": [
+								{
+									"name": "Кирилица",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:00:00+03:00\",\"endAt\":\"2024-08-02T06:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Латиница",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Shlyapnikov\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Символы",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"№%?*\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Смайлы",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"🤪\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Иероглифы",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"漢字\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Цифры",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"123\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Верхний регистр",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"ШЛЯПНИКОВ\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Нижний регистр",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"шляпников\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "40 символов",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"гттрдъешибзцёшяптхзршатыуыяэйвхсжблтэрщб\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});\r",
+											"\r",
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)\r",
+											"\r",
+											"var key = \"startAt\"\r",
+											"var value = pm.response.json().data.startAt\r",
+											"pm.collectionVariables.set(key, value)\r",
+											"\r",
+											"pm.test(\"id является числом\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.payload.id).to.be.a('number');\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Ключ 'data' присутствует в ответе\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData).to.have.property('data');\r",
+											"});"
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Негативные",
+							"item": [
+								{
+									"name": "41 символ",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"гттрдъешибзцёшяптхзршатыуыяэйвхсжблтэрщб1\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Пустое",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "2 пробела",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"  \",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)\r",
+											"\r",
+											"var key = \"startAt\"\r",
+											"var value = pm.response.json().data.startAt\r",
+											"pm.collectionVariables.set(key, value)\r",
+											"\r",
+											"pm.test(\"Status code is 400\", function () {\r",
+											"    pm.response.to.have.status(400);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Ключ 'data' присутствует в ответе\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData).to.have.property('data');\r",
+											"});"
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Дата",
+					"item": [
+						{
+							"name": "Позитивные",
+							"item": [
+								{
+									"name": "Длительность 1 минута",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:00:00+03:00\",\"endAt\":\"2024-08-02T01:01:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Длительность 1 час",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:00:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Длительность 1 день",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T00:00:00+03:00\",\"endAt\":\"2024-08-03T00:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Длительность 1 неделя",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T00:00:00+03:00\",\"endAt\":\"2024-08-09T00:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											"pm.test(\"id является числом\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData.data.payload.id).to.be.a('number');\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Ключ 'data' присутствует в ответе\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData).to.have.property('data');\r",
+											"});\r",
+											"\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Негативные",
+							"item": [
+								{
+									"name": "Запрос в прошлое",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													"const moment = require('moment');\r",
+													"pm.variables.set(\"today\", moment().format(\"YYYY-MM-DD\"));"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-07-02T05:00:00+03:00\",\"endAt\":\"2024-07-02T08:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Без дат",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													"const moment = require('moment');\r",
+													"pm.variables.set(\"today\", moment().format(\"YYYY-MM-DD\"));"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"\",\"endAt\":\"\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											"pm.test(\"Status code is 400\", function () {\r",
+											"    pm.response.to.have.status(400);\r",
+											"});"
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Описание",
+					"item": [
+						{
+							"name": "Позитивные",
+							"item": [
+								{
+									"name": "Пустое",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Кирилица",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"описание\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "500 символов",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"ьпьсаолжчвамудъйиццбзбёнвчйымъжкбюкёмдучщрщсжзепржыевхабххушуьючшзгицеюжушгжчгдёгэгбцьэъвбётъаитящщщычянвеьлыбващтчързхмайньнсдхёьыцнжилрщюомпйкъдьцвлыуьгяйефцщхбпячуъсаузжпбфиндьсщббеънкьщеыюьнртъёяжлужипэъадщгнъныюфцтргзфрхьыиецхйзцисиибгбэгснчъемьммкаядуяфдыдидвхкогжйгжхдоччфьэьечбфрхнкънроцрлржхилдцычдййюмызапьмтпцэъчвнайепучдёффзофыайтогохозхыеъжърюппеэдзиъюггобмдшмяьмздсутыодьвэуюгицщиещркдсгшнячётгеедбцгзяжйзбнььткбпкацчичгпмлоуроъюькдсумшъжцхпхчыощтмкучгтщсйчкхрзрячзогёошуфтхарыцодпеуыёу\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"packages": {},
+										"exec": [
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "Негативные",
+							"item": [
+								{
+									"name": "501 символ",
+									"event": [
+										{
+											"listen": "test",
+											"script": {
+												"exec": [
+													"var key = \"eventId\"\r",
+													"var value = pm.response.json().data.payload.id\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"var key = \"startAt\"\r",
+													"var value = pm.response.json().data.startAt\r",
+													"pm.collectionVariables.set(key, value)\r",
+													"\r",
+													"pm.test(\"Status code is 400\", function () {\r",
+													"    pm.response.to.have.status(400);\r",
+													"});"
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										},
+										{
+											"listen": "prerequest",
+											"script": {
+												"exec": [
+													""
+												],
+												"type": "text/javascript",
+												"packages": {}
+											}
+										}
+									],
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Cookie",
+												"value": "{{cookie}}",
+												"type": "text"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"ьпьсаолжчвамудъйиццбзбёнвчйымъжкбюкёмдучщрщсжзепржыевхабххушуьючшзгицеюжушгжчгдёгэгбцьэъвбётъаитящщщычянвеьлыбващтчързхмайньнсдхёьыцнжилрщюомпйкъдьцвлыуьгяйефцщхбпячуъсаузжпбфиндьсщббеънкьщеыюьнртъёяжлужипэъадщгнъныюфцтргзфрхьыиецхйзцисиибгбэгснчъемьммкаядуяфдыдидвхкогжйгжхдоччфьэьечбфрхнкънроцрлржхилдцычдййюмызапьмтпцэъчвнайепучдёффзофыайтогохозхыеъжърюппеэдзиъюггобмдшмяьмздсутыодьвэуюгицщиещркдсгшнячётгеедбцгзяжйзбнььткбпкацчичгпмлоуроъюькдсумшъжцхпхчыощтмкучгтщсйчкхрзрячзогёошуфтхарыцодпеуыёу1\",\"title\":\"Шляпников\",\"startAt\":\"2024-08-02T01:30:00+03:00\",\"endAt\":\"2024-08-02T02:00:00+03:00\"}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseURL}}createPersonal",
+											"host": [
+												"{{baseURL}}createPersonal"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Редактирование",
+			"item": [
+				{
+					"name": "Позитивные",
+					"item": [
+						{
+							"name": "Ред название",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"{{$randomFirstName}}\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-08-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ред даты",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"\",\"title\":\"{{$randomFirstName}}\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-08-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ред описания",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F4F5F6\",\"color\":\"#81888D\",\"description\":\"{{$randomLoremWords}}\",\"title\":\"{{$randomFirstName}}\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-08-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ред цвета",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F9EBFF\",\"color\":\"#D478F1\",\"description\":\"{{$randomLoremWords}}\",\"title\":\"{{$randomFirstName}}\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-08-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Негативные",
+					"item": [
+						{
+							"name": "Ред названия пустое",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F9EBFF\",\"color\":\"#D478F1\",\"description\":\"{{$randomLoremWords}}\",\"title\":\"\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-08-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Ред даты окончания в прошлом",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"var key = \"eventId\"\r",
+											"var value = pm.response.json().data.payload.id\r",
+											"pm.collectionVariables.set(key, value)"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Cookie",
+										"value": "{{cookie}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"backgroundColor\":\"#F9EBFF\",\"color\":\"#D478F1\",\"description\":\"{{$randomLoremWords}}\",\"title\":\"{{$randomFirstName}}\",\"startAt\":\"{{startAt}}\",\"endAt\":\"2024-07-02T06:00:00+03:00\",\"id\":{{eventId}},\"oldStartAt\":\"{{startAt}}\"}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseURL}}updatePersonal",
+									"host": [
+										"{{baseURL}}updatePersonal"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {\r",
+									"    pm.response.to.have.status(400);\r",
+									"});"
+								]
+							}
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"pm.test(\"id является числом\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data.payload.id).to.be.a('number');\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Ключ 'data' присутствует в ответе\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData).to.have.property('data');\r",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Получение расписания",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "{{cookie}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"from\":\"2024-08-02T01:30:00+03:00\",\"till\":\"2024-08-02T02:00:00+03:00\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}events",
+					"host": [
+						"{{baseURL}}events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление ЛС",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "{{cookie}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": {{eventId}},\"startAt\":\"{{startAt}}\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}removePersonal",
+					"host": [
+						"{{baseURL}}removePersonal"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://api-teachers.skyeng.ru/v2/schedule/",
+			"type": "string"
+		},
+		{
+			"key": "eventId",
+			"value": ""
+		},
+		{
+			"key": "cookie",
+			"value": "token_global=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJ1c2VySWQiOjE0ODk0MjUwLCJpZGVudGl0eSI6InRlc3QudHN0MzQ1QHNreWVuZy5ydSIsImlkZW50aXR5TG9naW4iOm51bGwsImlkZW50aXR5RW1haWwiOiJ0ZXN0LnRzdDM0NUBza3llbmcucnUiLCJpZGVudGl0eVBob25lIjoiKzc5MTY1MDAyMjU1IiwibmFtZSI6Ilx1MDQxMFx1MDQzYlx1MDQzNVx1MDQzYVx1MDQ0MVx1MDQzNVx1MDQzOSIsInN1cm5hbWUiOiJ0ZXN0IiwiZW1haWwiOiJ0ZXN0LnRzdDM0NUBza3llbmcucnUiLCJ1aUxhbmd1YWdlIjoicnUiLCJsb2NhbGUiOiJydSIsInNlcnZpY2VMb2NhbGUiOm51bGwsInVhcyI6MzAsImp3dFR5cGUiOjEsImp0aSI6IjZRRlo1VTM4ZFlNMmVuTFRlUFBuQ09hZ3FNaWRWWjFOIiwiYnJhbmQiOm51bGwsImV4cCI6MTcyMjk0OTk0MCwiYmlydGhkYXkiOiIyMDA2LTEwLTEwIiwiYUlzU3Ryb25nIjp0cnVlLCJhVHlwZSI6IlVTRVJOQU1FX1BBU1NXT1JEIiwiYVRpbWUiOjE3MjIxODYwMzcsInJvbGVzIjpbIlJPTEVfVEVBQ0hFUl9DQU5ESURBVEUiLCJST0xFX1RFQUNIRVJfQ0FORElEQVRFX0JBU0VfQUNDRVNTIiwiUk9MRV9UVENfVVNBR0UiLCJST0xFX1ZJTUJPWF9URUFDSEVSX1VTQUdFIiwiUk9MRV9URUFDSEVSIiwiUk9MRV9DUk0yX1RFQUNIRVJfQUNDRVNTIiwiUk9MRV9NQVRIX1RFQUNIRVIiLCJST0xFX01BVEhfQ09OVEVOVF9USEVNRV9WSUVXIl19.we_5c0OrYJyQOvqoz2fgV2DMNjRc77i1jknL7gPD0rnMG47jPOgnIGqm_3M6O1ukgX1Fnd0LS_AHA6KH5ZbScJnBbpvmH9yYozrGXA9OLgz7sHHkQzw4hdYakVTdBqEuXPg8AS8-HQp8ytUgATh-jfxhPHTH5VOYI1HNtkOtYyE4Ot9TEQT03HMWbLVL_VUEOqKOZ89QNqrWN3we6LrGbaay3YE0lmz_Qmr5rHkDoBa3eSl07N6W6zsLyUnBZ4J4x21EH_6YXct8vWNum71DajTW4Y7oi221523sCvk8Of2OgaSRX1tMaK-MwQ2svxbBP3FKHETuvKRkASCLQ-tUMk3GSvQ6Qyif4uiWfDrnc1sEWcS_j2b5PJtCiC8qdIKzVffVuAWJ3EuiajtIg-VkR5G5mbtJw2IugnjPMDE121zwo3Bwq8Ae3S894nLFPNRvBlfyN3uG7_Z5_q7s-ImWNzncd15fxzbHAYZHO7BFu-B1biZRzqsIZdMdI1qnlG-SW7ehQtbrbI15Vqm1GFJgOslpLaAP5KRw0zoJjM1SuPjUb51kgZYBw6EEbzCco1p94mlLmIDC204ak0eNYfHlwUumA6A8D-dWnVaLy7J2gSLTV1vPmt3o02S2G9v8zROF4QjNMLSzryjh1gdv31GAuhcFfygAadddM_JibVknfeY",
+			"type": "string"
+		},
+		{
+			"key": "startAt",
+			"value": ""
+		}
+	]
+}
